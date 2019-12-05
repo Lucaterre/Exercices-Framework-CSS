@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style type="text/css">
+        .col-3 {
+            background-color: palevioletred;
+            height: 70px;
+            text-align: right;
+            border: palevioletred solid;
+        }
+
+        .col-9 {
+            background-color: aqua;
+            height: 70px;
+            border: aqua solid;
+            text-align: center;
+        }
+
+        .col-4 {
+            background-color: greenyellow;
+            text-align: center;
+            border: greenyellow solid;
+        }
+
+        .col-8 {
+            border: 0.3px black solid;
+        }
+
+        .col-12 {
+            background-color: yellow;
+            text-align: center;
+            border: yellow solid;
+            height: 50px;
+        }
+
+        .rounded-circle {
+            width: 50px;
+            height: 50px;
+            float: left;
+
+        }
+
+        img {
+            margin: -35px 70px 0 0;
+            position: relative;
+        }
+
+        button {
+            margin: -20px 14px 0 290px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- pour faire un tableau 12/12 -->
+        <div class="row">
+            <!-- 3 row pour les lignes -->
+            <div class="col-3">
+                <!-- 3/12 -->
+                <p>3/12</p>
+                <p><img src="/projets-web/enc-cours/images/fond2.jpg" alt="motifs géométriques variés de couleurs psychédéliques" class="rounded-circle" /></p>
+            </div>
+            <div class="col-9 align-self-center">
+                <!-- 9/12 -->
+                <p>9/12</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <!-- attribut class s'exprime par un point dans une feuille de style CSS-->
+                4/12
+            </div>
+            <div class="col-8">
+                <h1>Heading</h1>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum voluptas itaque tempore corrupti non possimus aspernatur, praesentium aut numquam ea quasi eaque sequi, magnam, molestias eum vero facere. Quibusdam, temporibus!
+                    </p>
+                    <button type="button" class="btn btn-primary btn-sm">Read more</button>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-end">
+            <div class="col-12 align-self-center">
+                <p>Source : Ecole Nationale des Chartes, 2017</p>
+            </div>
+        </div>
+</body>
+
+</html>
