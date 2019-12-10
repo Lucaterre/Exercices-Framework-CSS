@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>exercice 4</title>
+
+    <!-- Framework Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Fonts Google -->
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    
+    <style type="text/css">
+        
+        *{
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .sous-titre{
+            font-size: 0.85em;
+            color: darkgrey;          
+        }
+    
+    
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Pandora Post-Correction Editor</a>
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#" style="color: dimgray">New Corpus</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                <h1>Create a new corpus</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Corpus name</label>
+                        <input class="form-control" id="exampleFormControlInput1" placeholder="Enter name of the corpus">
+                        <p class="sous-titre">This should be a clear name</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Tokens (as TSV content)</label>
+                        <br>
+                        <br>
+                        <p class="sous-titre">The TSV should at least have the headers : lemma, POS, morph, form</p>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Allowed lemma</label>
+                        <p class="sous-titre">This should be formatted a list of lemma sperated by new line</p>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Allowed POS</label>
+                        <p class="sous-titre">This should be formatted a list of POS separated by comma and no space</p>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Allowed Morph (as TSV content)</label>
+                        <p class="sous-titre">The TSV should at least have : label and could have a readable column for human</p>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-sm">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
