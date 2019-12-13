@@ -15,7 +15,11 @@ Exercices de CSS réalisés avec le framework Bootstrap dans le cadre du MTNAH
 - Peut-on réduire la taille du texte et l'inclure dans une visionneuse avec une scroll bar ?
 - Pour la partie "popular text" : comment uniformiser la taille des encarts ? (résolution image à harmoniser ?) et pourquoi dans les cards le bouton "flag" ne s'affiche pas ?
 
-![capture exercice 2](img/exercice3.png)
+![capture exercice 3](img/exercice3.png)
 
+## Exercice 4 : 
 
+- Comment enlever l'espace entre les sous-titres en gris clair (ex. "The TSV should at least have the headers : lemma, POS, morph, form") et les boites d'input ?
+
+![capture exercice 4](img/exercice4.png)
 
