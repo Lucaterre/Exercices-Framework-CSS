@@ -11,9 +11,9 @@ Exercices de CSS réalisés avec le framework Bootstrap dans le cadre du MTNAH
 ## Exercice 3 : 
 
 - Comment rendre les boutons sur la droite de la navbar plus transparent (sans les bordures) ? 
-- Lors du défillement de la page, comment faire en sorte que la navbar descende en même temps ?
+- Lors du défilement de la page, comment faire en sorte que la navbar descende en même temps ?
 - Peut-on réduire la taille du texte et l'inclure dans une visionneuse avec une scroll bar ?
-- Pour la partie "popular text" : comment uniformiser la taille des encarts ? (résolution image à harmoniser ?) et pourquoi dans les cards le bouton "flag" ne s'affiche pas ?
+- Pour la partie "popular text" : comment harmoniser la taille des encarts ? et pourquoi dans les cards l'icone "flag" ne s'affiche pas ?
 
 ![capture exercice 3](img/exercice3.png)
 
@@ -22,4 +22,10 @@ Exercices de CSS réalisés avec le framework Bootstrap dans le cadre du MTNAH
 - Comment enlever l'espace entre les sous-titres en gris clair (ex. "The TSV should at least have the headers : lemma, POS, morph, form") et les boites d'input ?
 
 ![capture exercice 4](img/exercice4.png)
+
+## Exercice 5 : 
+
+- Comment fonctionne les boutons de pagination ? 
+
+![capture exercice 4](img/exercice5.png)
 
